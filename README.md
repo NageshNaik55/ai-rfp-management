@@ -9,26 +9,18 @@ This repository is a minimal, demo-ready implementation of the **AI-Powered RFP 
 
 ### .env file
 
-# Database
-
 DB_HOST=db
 DB_USER=postgres
 DB_PASS=password
 DB_NAME=rfps
 DB_PORT=5432
 
-# OpenAI (optional)
-
 OPENAI_KEY=add_your_openAI_key
-
-# Email (SMTP)
 
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 MAIL_USER=add_your_email_id
 MAIL_PASS=add_your_password
-
-# IMAP (optional)
 
 IMAP_HOST=imap.gmail.com
 IMAP_PORT=993
